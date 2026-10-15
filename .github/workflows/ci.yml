@@ -40,9 +40,6 @@ jobs:
           fi
           pip install pytest coverage flake8
 
-      - name: Run tests
-        run: python -m pytest
-
       - name: Generate coverage
         run: coverage run -m pytest
 
